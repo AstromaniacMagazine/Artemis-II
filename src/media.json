@@ -1,0 +1,760 @@
+{
+  "https://images-assets.nasa.gov/image/art002e009573/art002e009573~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/art002e009573/art002e009573~medium.jpg",
+    "originalBytes": 71587,
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "media/0b20321614c5-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 5644
+      },
+      {
+        "path": "media/0b20321614c5-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 17826
+      },
+      {
+        "path": "media/0b20321614c5-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 30900
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/art002e013361/art002e013361~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/art002e013361/art002e013361~medium.jpg",
+    "originalBytes": 206284,
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "path": "media/08b2de4e2775-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37368
+      },
+      {
+        "path": "media/08b2de4e2775-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 109938
+      },
+      {
+        "path": "media/08b2de4e2775-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 177326
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2026/04/art002e009288orig.jpg?w=1000": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2026/04/art002e009288orig.jpg?w=1000",
+    "originalBytes": 66081,
+    "width": 1000,
+    "height": 666,
+    "variants": [
+      {
+        "path": "media/aecc01c48525-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 7380
+      },
+      {
+        "path": "media/aecc01c48525-960.webp",
+        "width": 960,
+        "height": 639,
+        "bytes": 20500
+      },
+      {
+        "path": "media/aecc01c48525-1000.webp",
+        "width": 1000,
+        "height": 666,
+        "bytes": 22874
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/jsc2024e009648/jsc2024e009648~large.jpg": {
+    "source": "https://images-assets.nasa.gov/image/jsc2024e009648/jsc2024e009648~large.jpg",
+    "originalBytes": 452711,
+    "width": 1536,
+    "height": 1920,
+    "variants": [
+      {
+        "path": "media/28c3505b87e8-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 51132
+      },
+      {
+        "path": "media/28c3505b87e8-960.webp",
+        "width": 960,
+        "height": 1200,
+        "bytes": 160908
+      },
+      {
+        "path": "media/28c3505b87e8-1536.webp",
+        "width": 1536,
+        "height": 1920,
+        "bytes": 345736
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/art002e016198/art002e016198~large.jpg": {
+    "source": "https://images-assets.nasa.gov/image/art002e016198/art002e016198~large.jpg",
+    "originalBytes": 201815,
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/e3db6263e9e9-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8982
+      },
+      {
+        "path": "media/e3db6263e9e9-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 26414
+      },
+      {
+        "path": "media/e3db6263e9e9-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 79772
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/ArtemisIICrewPoster/ArtemisIICrewPoster~orig.png": {
+    "source": "https://images-assets.nasa.gov/image/ArtemisIICrewPoster/ArtemisIICrewPoster~orig.png",
+    "originalBytes": 12741154,
+    "width": 6600,
+    "height": 10200,
+    "variants": [
+      {
+        "path": "media/5d2abf99c2a3-480.webp",
+        "width": 480,
+        "height": 742,
+        "bytes": 32342
+      },
+      {
+        "path": "media/5d2abf99c2a3-960.webp",
+        "width": 960,
+        "height": 1484,
+        "bytes": 94740
+      },
+      {
+        "path": "media/5d2abf99c2a3-1600.webp",
+        "width": 1600,
+        "height": 2473,
+        "bytes": 222994
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/art002e009211/art002e009211~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/art002e009211/art002e009211~medium.jpg",
+    "originalBytes": 144102,
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "path": "media/d5d6fb7b9ba2-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26236
+      },
+      {
+        "path": "media/d5d6fb7b9ba2-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 68066
+      },
+      {
+        "path": "media/d5d6fb7b9ba2-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 100892
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2026/04/55182696113-0c4398702d-o-2.jpg?w=1000": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2026/04/55182696113-0c4398702d-o-2.jpg?w=1000",
+    "originalBytes": 87917,
+    "width": 1000,
+    "height": 611,
+    "variants": [
+      {
+        "path": "media/90d80294c28f-480.webp",
+        "width": 480,
+        "height": 293,
+        "bytes": 10458
+      },
+      {
+        "path": "media/90d80294c28f-960.webp",
+        "width": 960,
+        "height": 587,
+        "bytes": 28780
+      },
+      {
+        "path": "media/90d80294c28f-1000.webp",
+        "width": 1000,
+        "height": 611,
+        "bytes": 32120
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/jsc2025e004089/jsc2025e004089~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/jsc2025e004089/jsc2025e004089~medium.jpg",
+    "originalBytes": 183529,
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "path": "media/cdc18a43100a-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36728
+      },
+      {
+        "path": "media/cdc18a43100a-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 98212
+      },
+      {
+        "path": "media/cdc18a43100a-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 146196
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/art002e009288/art002e009288~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/art002e009288/art002e009288~medium.jpg",
+    "originalBytes": 63781,
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "path": "media/2aad11604d4d-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 7602
+      },
+      {
+        "path": "media/2aad11604d4d-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 22590
+      },
+      {
+        "path": "media/2aad11604d4d-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 34846
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/jsc2022e044979/jsc2022e044979~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/jsc2022e044979/jsc2022e044979~medium.jpg",
+    "originalBytes": 189201,
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "media/fe7a1f6cb0b3-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 34864
+      },
+      {
+        "path": "media/fe7a1f6cb0b3-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 96396
+      },
+      {
+        "path": "media/fe7a1f6cb0b3-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 149470
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2022/12/Kennedy-VAB.jpg?resize=600,400": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2022/12/Kennedy-VAB.jpg?resize=600,400",
+    "originalBytes": 60981,
+    "width": 600,
+    "height": 400,
+    "variants": [
+      {
+        "path": "media/8289e4c753dd-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21648
+      },
+      {
+        "path": "media/8289e4c753dd-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 33526
+      }
+    ]
+  },
+  "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/orion_integration_for_artemis_ii/25149327-1-eng-GB/Orion_Integration_for_Artemis_II_pillars.jpg": {
+    "source": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/orion_integration_for_artemis_ii/25149327-1-eng-GB/Orion_Integration_for_Artemis_II_pillars.jpg",
+    "originalBytes": 720946,
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/d00ee5db0282-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38744
+      },
+      {
+        "path": "media/d00ee5db0282-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 124886
+      },
+      {
+        "path": "media/d00ee5db0282-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 279332
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/KSC-20240404-PH-ALS01_0017/KSC-20240404-PH-ALS01_0017~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/KSC-20240404-PH-ALS01_0017/KSC-20240404-PH-ALS01_0017~medium.jpg",
+    "originalBytes": 130207,
+    "width": 718,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/7f7081eca030-480.webp",
+        "width": 480,
+        "height": 856,
+        "bytes": 55734
+      },
+      {
+        "path": "media/7f7081eca030-718.webp",
+        "width": 718,
+        "height": 1280,
+        "bytes": 98546
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/jsc2024e044988/jsc2024e044988~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/jsc2024e044988/jsc2024e044988~medium.jpg",
+    "originalBytes": 192327,
+    "width": 853,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/ae4281b93267-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 63578
+      },
+      {
+        "path": "media/ae4281b93267-853.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 165762
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/jsc2025e016294/jsc2025e016294~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/jsc2025e016294/jsc2025e016294~medium.jpg",
+    "originalBytes": 181266,
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "path": "media/f82f0c651062-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30746
+      },
+      {
+        "path": "media/f82f0c651062-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 91916
+      },
+      {
+        "path": "media/f82f0c651062-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 145634
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/KSC-20230725-PH-FMX01_0002/KSC-20230725-PH-FMX01_0002~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/KSC-20230725-PH-FMX01_0002/KSC-20230725-PH-FMX01_0002~medium.jpg",
+    "originalBytes": 179265,
+    "width": 860,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/cacd2015ed0c-480.webp",
+        "width": 480,
+        "height": 714,
+        "bytes": 59098
+      },
+      {
+        "path": "media/cacd2015ed0c-860.webp",
+        "width": 860,
+        "height": 1280,
+        "bytes": 145424
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/KSC-20251018-PH-KLS02_0075/KSC-20251018-PH-KLS02_0075~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/KSC-20251018-PH-KLS02_0075/KSC-20251018-PH-KLS02_0075~medium.jpg",
+    "originalBytes": 215083,
+    "width": 853,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/c44818028b59-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 70558
+      },
+      {
+        "path": "media/c44818028b59-853.webp",
+        "width": 853,
+        "height": 1280,
+        "bytes": 191140
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/art002e009282/art002e009282~large.jpg": {
+    "source": "https://images-assets.nasa.gov/image/art002e009282/art002e009282~large.jpg",
+    "originalBytes": 368833,
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/2c2bbec1570b-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32934
+      },
+      {
+        "path": "media/2c2bbec1570b-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 108732
+      },
+      {
+        "path": "media/2c2bbec1570b-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 239988
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2026/04/ksc-20260410-ph-jmb01-0004-1.jpg": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2026/04/ksc-20260410-ph-jmb01-0004-1.jpg",
+    "originalBytes": 4321029,
+    "width": 7024,
+    "height": 4683,
+    "variants": [
+      {
+        "path": "media/8559e18352a4-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 33754
+      },
+      {
+        "path": "media/8559e18352a4-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 105468
+      },
+      {
+        "path": "media/8559e18352a4-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 230928
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/KSC-20221116-PH-ILW01_0023/KSC-20221116-PH-ILW01_0023~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/KSC-20221116-PH-ILW01_0023/KSC-20221116-PH-ILW01_0023~medium.jpg",
+    "originalBytes": 74711,
+    "width": 1280,
+    "height": 854,
+    "variants": [
+      {
+        "path": "media/70d769739100-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 10740
+      },
+      {
+        "path": "media/70d769739100-960.webp",
+        "width": 960,
+        "height": 641,
+        "bytes": 27538
+      },
+      {
+        "path": "media/70d769739100-1280.webp",
+        "width": 1280,
+        "height": 854,
+        "bytes": 40474
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604100018-de0384.jpg": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604100018-de0384.jpg",
+    "originalBytes": 10183439,
+    "width": 5693,
+    "height": 4171,
+    "variants": [
+      {
+        "path": "media/7b4f6c27005b-480.webp",
+        "width": 480,
+        "height": 352,
+        "bytes": 6796
+      },
+      {
+        "path": "media/7b4f6c27005b-960.webp",
+        "width": 960,
+        "height": 703,
+        "bytes": 25208
+      },
+      {
+        "path": "media/7b4f6c27005b-1600.webp",
+        "width": 1600,
+        "height": 1172,
+        "bytes": 66080
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/jsc2026e391565/jsc2026e391565~large.jpg": {
+    "source": "https://images-assets.nasa.gov/image/jsc2026e391565/jsc2026e391565~large.jpg",
+    "originalBytes": 307021,
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/1932c589cb21-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30150
+      },
+      {
+        "path": "media/1932c589cb21-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 87010
+      },
+      {
+        "path": "media/1932c589cb21-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 176592
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/KSC-20260210-PH-JBS01-0039/KSC-20260210-PH-JBS01-0039~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/KSC-20260210-PH-JBS01-0039/KSC-20260210-PH-JBS01-0039~medium.jpg",
+    "originalBytes": 90281,
+    "width": 720,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/97fb42212f51-480.webp",
+        "width": 480,
+        "height": 853,
+        "bytes": 35870
+      },
+      {
+        "path": "media/97fb42212f51-720.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 67770
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604100030.jpg": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604100030.jpg",
+    "originalBytes": 27430999,
+    "width": 8256,
+    "height": 5504,
+    "variants": [
+      {
+        "path": "media/ce9fc65a57c4-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38028
+      },
+      {
+        "path": "media/ce9fc65a57c4-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 119158
+      },
+      {
+        "path": "media/ce9fc65a57c4-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 262310
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/ArtemisII_Poster_11x17_300ppi_CMYK/ArtemisII_Poster_11x17_300ppi_CMYK~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/ArtemisII_Poster_11x17_300ppi_CMYK/ArtemisII_Poster_11x17_300ppi_CMYK~medium.jpg",
+    "originalBytes": 84825,
+    "width": 828,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/2e06ac0e2918-480.webp",
+        "width": 480,
+        "height": 742,
+        "bytes": 16466
+      },
+      {
+        "path": "media/2e06ac0e2918-828.webp",
+        "width": 828,
+        "height": 1280,
+        "bytes": 41720
+      }
+    ]
+  },
+  "https://images.squarespace-cdn.com/content/v1/6707b4b3f2000e3c80442056/cbff70da-ce1a-4749-92f6-835f633ac85a/Artemis+II+Poster+AA.jpg?format=1000w": {
+    "source": "https://images.squarespace-cdn.com/content/v1/6707b4b3f2000e3c80442056/cbff70da-ce1a-4749-92f6-835f633ac85a/Artemis+II+Poster+AA.jpg?format=1000w",
+    "originalBytes": 29826,
+    "width": 1000,
+    "height": 750,
+    "variants": [
+      {
+        "path": "media/81164410c76c-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 6498
+      },
+      {
+        "path": "media/81164410c76c-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 16230
+      },
+      {
+        "path": "media/81164410c76c-1000.webp",
+        "width": 1000,
+        "height": 750,
+        "bytes": 20188
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2023/06/hls-eva-apr2020.jpg?resize=1024,576": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2023/06/hls-eva-apr2020.jpg?resize=1024,576",
+    "originalBytes": 117452,
+    "width": 1024,
+    "height": 576,
+    "variants": [
+      {
+        "path": "media/695d19897098-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15014
+      },
+      {
+        "path": "media/695d19897098-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 49010
+      },
+      {
+        "path": "media/695d19897098-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 57510
+      }
+    ]
+  },
+  "https://images-assets.nasa.gov/image/ArtemisII%20%20second%20poster_11x17_300ppi_CMYK_Left/ArtemisII%20%20second%20poster_11x17_300ppi_CMYK_Left~medium.jpg": {
+    "source": "https://images-assets.nasa.gov/image/ArtemisII%20%20second%20poster_11x17_300ppi_CMYK_Left/ArtemisII%20%20second%20poster_11x17_300ppi_CMYK_Left~medium.jpg",
+    "originalBytes": 84434,
+    "width": 828,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "media/8e29d8a3b24f-480.webp",
+        "width": 480,
+        "height": 742,
+        "bytes": 16268
+      },
+      {
+        "path": "media/8e29d8a3b24f-828.webp",
+        "width": 828,
+        "height": 1280,
+        "bytes": 45460
+      }
+    ]
+  },
+  "https://images.squarespace-cdn.com/content/v1/6707b4b3f2000e3c80442056/bc6de9d3-d564-4223-baa0-82a17265e5aa/Artemis+II+Poster+BA.jpg?format=1000w": {
+    "source": "https://images.squarespace-cdn.com/content/v1/6707b4b3f2000e3c80442056/bc6de9d3-d564-4223-baa0-82a17265e5aa/Artemis+II+Poster+BA.jpg?format=1000w",
+    "originalBytes": 24346,
+    "width": 1000,
+    "height": 750,
+    "variants": [
+      {
+        "path": "media/0aa6eeb5f4b1-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 4956
+      },
+      {
+        "path": "media/0aa6eeb5f4b1-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 12374
+      },
+      {
+        "path": "media/0aa6eeb5f4b1-1000.webp",
+        "width": 1000,
+        "height": 750,
+        "bytes": 15644
+      }
+    ]
+  },
+  "https://www.nasa.gov/wp-content/uploads/2024/01/samplecollection-2crew-xeva.png?resize=1024,576": {
+    "source": "https://www.nasa.gov/wp-content/uploads/2024/01/samplecollection-2crew-xeva.png?resize=1024,576",
+    "originalBytes": 286115,
+    "width": 1024,
+    "height": 576,
+    "variants": [
+      {
+        "path": "media/112f9907e9ef-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 16346
+      },
+      {
+        "path": "media/112f9907e9ef-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 44132
+      },
+      {
+        "path": "media/112f9907e9ef-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 48522
+      }
+    ]
+  }
+}

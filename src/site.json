@@ -1,0 +1,27 @@
+{
+  "title": "Artemis II Mission Report | Astromaniac Magazine",
+  "description": "Artemis II, from launch to lunar flyby and splashdown. Explore the crew, Orion, mission photographs, audio and what comes next with Astromaniac Magazine.",
+  "canonical": "https://www.astromaniacmagazine.com/artemis-ii-mission-report",
+  "assetBase": "https://astromaniacmagazine.github.io/Artemis-II/",
+  "reviewedDate": "2026-09-27",
+  "reviewedLabel": "27 September 2026",
+  "facts": { "totalMiles": "695,081", "farthestMiles": "252,756", "closestMiles": "4,067", "duration": "9d 1h 32m", "accords": "76" },
+  "sections": ["hero", "essentials", "launch", "crew", "trailer", "key-players", "partners", "orion", "flyby", "highlights", "splashdown", "timeline", "posters", "sources"],
+  "sources": {
+    "mission": "https://www.nasa.gov/mission/artemis-ii/",
+    "return": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/",
+    "flyby": "https://www.nasa.gov/blogs/missions/2026/04/06/artemis-ii-flight-day-6-crew-wraps-historic-lunar-flyby/",
+    "photos": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-beams-official-moon-flyby-photos-to-earth/",
+    "inspection": "https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/",
+    "orion": "https://www.nasa.gov/reference/orion-spacecraft/",
+    "naming": "https://www.nasa.gov/blogs/missions/2025/09/24/artemis-ii-crew-members-name-their-orion-spacecraft/",
+    "esa": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+    "engines": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_Service_Module_engines_powering_Artemis_II",
+    "accords": "https://www.nasa.gov/artemis-accords/",
+    "iii": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+    "architecture": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
+    "v": "https://www.nasa.gov/event/artemis-v/",
+    "hardware": "https://www.nasa.gov/blogs/missions/2026/08/05/nasa-joins-artemis-iii-orion-modules-rocket-hardware-update/",
+    "science": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/"
+  }
+}

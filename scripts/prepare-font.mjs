@@ -1,0 +1,14 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+const response=await fetch('https://fonts.googleapis.com/css2?family=Manrope:wght@400..600&display=swap',{headers:{'User-Agent':'Mozilla/5.0 Chrome/125.0.0.0 Safari/537.36'}});
+if(!response.ok)throw Error(`Font stylesheet: ${response.status}`);
+const css=await response.text();
+const latin=css.split('/* latin */').at(-1);
+const url=latin.match(/url\((https:\/\/fonts\.gstatic\.com\/[^)]+)\)/)?.[1];
+if(!url)throw Error('Latin Manrope font not found');
+const font=await fetch(url);if(!font.ok)throw Error(`Font: ${font.status}`);
+const licence=await fetch('https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt');
+if(!licence.ok)throw Error(`Font licence: ${licence.status}`);
+await mkdir('public/fonts',{recursive:true});
+await writeFile('public/fonts/manrope-latin.woff2',Buffer.from(await font.arrayBuffer()));
+await writeFile('public/fonts/OFL.txt',await licence.text());
+console.log('Saved Manrope Latin variable font and its OFL licence.');

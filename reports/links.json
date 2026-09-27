@@ -1,0 +1,419 @@
+{
+  "summary": {
+    "checkedAt": "2026-09-27T20:24:06.939Z",
+    "total": 51,
+    "passed": 51,
+    "failed": 0,
+    "unverified": 0
+  },
+  "results": [
+    {
+      "url": "https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~medium.mp4",
+      "kind": "video",
+      "status": 206,
+      "type": "video/mp4",
+      "finalURL": "https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~medium.mp4",
+      "result": "pass"
+    },
+    {
+      "url": "https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~mobile.mp4",
+      "kind": "video",
+      "status": 206,
+      "type": "video/mp4",
+      "finalURL": "https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~mobile.mp4",
+      "result": "pass"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
+      "result": "pass"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a020000/a020400/a020412/jsc2025m000169_Artemis_II_Mission_Map_720.mp4",
+      "kind": "video",
+      "status": 206,
+      "type": "video/mp4",
+      "finalURL": "https://svs.gsfc.nasa.gov/vis/a020000/a020400/a020412/jsc2025m000169_Artemis_II_Mission_Map_720.mp4",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/after-dark-calendar",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/after-dark-calendar",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/contact",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/contact",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/james-webb-space-telescope-inside-the-mission",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/james-webb-space-telescope-inside-the-mission",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/store/p/artemis-ii-for-all-humanity-poster1",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/store/p/artemis-ii-for-all-humanity-poster1",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/store/p/artemis-ii-poster2",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/store/p/artemis-ii-poster2",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.astromaniacmagazine.com/subscribe",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html;charset=utf-8",
+      "finalURL": "https://www.astromaniacmagazine.com/subscribe",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_Service_Module_engines_powering_Artemis_II",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html; charset=utf-8",
+      "finalURL": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_Service_Module_engines_powering_Artemis_II",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+      "kind": "page",
+      "status": 206,
+      "type": "text/html; charset=utf-8",
+      "finalURL": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/artemis-accords/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/artemis-accords/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/blogs/missions/2025/09/24/artemis-ii-crew-members-name-their-orion-spacecraft/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/blogs/missions/2025/09/24/artemis-ii-crew-members-name-their-orion-spacecraft/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/blogs/missions/2026/04/06/artemis-ii-flight-day-6-crew-wraps-historic-lunar-flyby/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/blogs/missions/2026/04/06/artemis-ii-flight-day-6-crew-wraps-historic-lunar-flyby/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/blogs/missions/2026/08/05/nasa-joins-artemis-iii-orion-modules-rocket-hardware-update/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/blogs/missions/2026/08/05/nasa-joins-artemis-iii-orion-modules-rocket-hardware-update/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/event/artemis-v/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/event/artemis-v/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/mission/artemis-ii/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/mission/artemis-ii/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-promotes-howard-hu-to-lead-orion-ahead-of-first-artemis-mission/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/news-release/nasa-promotes-howard-hu-to-lead-orion-ahead-of-first-artemis-mission/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-beams-official-moon-flyby-photos-to-earth/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-beams-official-moon-flyby-photos-to-earth/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/people/amit-kshatriya/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/people/amit-kshatriya/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/people/john-honeycutt/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/people/john-honeycutt/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/people/kennedy-biographies-blackwell-thompson/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/people/kennedy-biographies-blackwell-thompson/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/people/lakiesha-hawkins/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/people/lakiesha-hawkins/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/reference/orion-spacecraft/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/reference/orion-spacecraft/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-i-audio-t-minus-10-seconds-to-liftoff.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-i-audio-t-minus-10-seconds-to-liftoff.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-amaze-amaze-amaze.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-amaze-amaze-amaze.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-breaks-apollo-13-distance-record.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-breaks-apollo-13-distance-record.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-closest-point-to-moon.wav",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/wav",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-closest-point-to-moon.wav",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-go-for-translunar-injection.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-go-for-translunar-injection.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-houston-we-have-you-loud-and-clear-1.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-houston-we-have-you-loud-and-clear-1.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-humanity-has-shown-what-we-are-capable-of.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-humanity-has-shown-what-we-are-capable-of.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-launch-full-send.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-launch-full-send.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-liftoff.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-liftoff.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-names-new-craters-integrity-and-carroll.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-names-new-craters-integrity-and-carroll.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-splashdown-shorter.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-splashdown-shorter.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-we-will-explore.wav",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/wav",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-we-will-explore.wav",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/christina-koch-clip-privileged-to-be-part-of-artemis-ii-crew.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/christina-koch-clip-privileged-to-be-part-of-artemis-ii-crew.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/jeremy-hansen-clip-inspired-by-neil-armstrong.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/jeremy-hansen-clip-inspired-by-neil-armstrong.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/launch-day-jitters.wav",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/wav",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/launch-day-jitters.wav",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/launch-day-what-does-it-take.wav",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/wav",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/launch-day-what-does-it-take.wav",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/miracle-on-ice.wav",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/wav",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/miracle-on-ice.wav",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/reid-wiseman-clip-artemis-builds-on-a-solid-legacy.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/reid-wiseman-clip-artemis-builds-on-a-solid-legacy.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/spacecraft-integrity.wav",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/wav",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/spacecraft-integrity.wav",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2026/01/victor-glover-clip-exploring-is-who-we-are.mp3",
+      "kind": "audio",
+      "status": 206,
+      "type": "audio/mpeg",
+      "finalURL": "https://www.nasa.gov/wp-content/uploads/2026/01/victor-glover-clip-exploring-is-who-we-are.mp3",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pc-AJDsePtE&t=146s",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "finalURL": "https://www.youtube.com/watch?v=pc-AJDsePtE&t=146s",
+      "result": "pass"
+    }
+  ]
+}

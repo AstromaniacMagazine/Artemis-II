@@ -1,0 +1,957 @@
+
+  
+    <!-- Artemis II Mission Report: Hero Section Module for Squarespace -->
+<link rel="preconnect" href="https://images-assets.nasa.gov" crossorigin="">
+<link rel="preconnect" href="https://www.nasa.gov" crossorigin="">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap">
+<section class="am2-hero" id="am2-top" aria-label="Artemis II Mission Report opening video">
+  <div class="am2-hero__sticky">
+    <video class="am2-hero__video" id="am2HeroVideo" autoplay muted loop playsinline webkit-playsinline="" preload="metadata" poster="https://images-assets.nasa.gov/video/art002m1200912222_Liftoff_1/art002m1200912222_Liftoff_1~medium.jpg" aria-label="Artemis II liftoff video background">
+      <source media="(max-width: 760px)" src="https://images-assets.nasa.gov/video/art002m1200912222_Liftoff_1/art002m1200912222_Liftoff_1~mobile.mp4" type="video/mp4">
+      <source media="(max-width: 1200px)" src="https://images-assets.nasa.gov/video/art002m1200912222_Liftoff_1/art002m1200912222_Liftoff_1~medium.mp4" type="video/mp4">
+      <source src="https://images-assets.nasa.gov/video/art002m1200912222_Liftoff_1/art002m1200912222_Liftoff_1~large.mp4" type="video/mp4">
+    </video>
+    <audio class="am2-hero__audio" id="am2HeroAudio" preload="none" loop data-src="https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-liftoff.mp3">
+    </audio>
+
+    <div class="am2-hero__texture" aria-hidden="true"></div>
+    <div class="am2-hero__shade" aria-hidden="true"></div>
+
+    <div class="am2-hero__sound-controls" aria-label="Hero video sound controls">
+      <button class="am2-hero__sound" id="am2HeroSound" type="button" aria-label="Unmute hero video">
+        <svg class="am2-hero__sound-off" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 10.2v3.6h4.1l5.1 4.2V6L8.1 10.2H4z" />
+          <path d="M16.5 9.2l4.1 5.6" />
+          <path d="M20.6 9.2l-4.1 5.6" />
+        </svg>
+        <svg class="am2-hero__sound-on" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 10.2v3.6h4.1l5.1 4.2V6L8.1 10.2H4z" />
+          <path d="M16.1 10a3.7 3.7 0 0 1 0 4" />
+          <path d="M18.8 7.6a7 7 0 0 1 0 8.8" />
+        </svg>
+      </button>
+      <button class="am2-hero__volume-btn" id="am2HeroVolume" type="button" aria-label="Open hero video volume control">
+        <span class="am2-hero__volume-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      </button>
+      <label class="am2-hero__volume" aria-label="Hero video volume">
+        <input id="am2HeroVolumeRange" type="range" min="0" max="1" step="0.05" value="1">
+      </label>
+    </div>
+
+    <div class="am2-hero__copy">
+      <p class="am2-hero__kicker">Astromaniac Magazine presents</p>
+      <h1 class="am2-hero__title" data-title="Artemis II Mission Report">Artemis II Mission Report</h1>
+      <p class="am2-hero__byline">A cinematic journey from liftoff to lunar flyby and splashdown.</p>
+    </div>
+
+    <a class="am2-hero__ignite" href="#am2-essentials" aria-label="Scroll to continue">
+      <span class="am2-hero__ignite-ring" aria-hidden="true"></span>
+      <span class="am2-hero__ignite-icon" aria-hidden="true">
+        <svg viewBox="0 0 42 42">
+          <path d="M21 5v25" />
+          <path d="M12.5 22.5L21 31l8.5-8.5" />
+          <path d="M16 37h10" />
+        </svg>
+      </span>
+      <span class="am2-hero__ignite-text">Scroll to Ignite</span>
+    </a>
+  </div>
+</section>
+
+<style>
+  .am2-hero,
+  .am2-hero * {
+    box-sizing: border-box;
+  }
+
+  .am2-hero {
+    --am2-progress: 0;
+    --am2-cream: #E0E0DB;
+    --am2-navy: #253551;
+    --am2-black: #000000;
+    position: relative;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-height: 170vh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    transform: none;
+    overflow: visible;
+    isolation: isolate;
+    background: #000;
+    font-family: "Manrope", sans-serif;
+  }
+
+  .am2-hero__sticky {
+    position: sticky;
+    top: 0;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-height: 100svh;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background:
+      #000
+      url("https://images-assets.nasa.gov/video/art002m1200912222_Liftoff_1/art002m1200912222_Liftoff_1~medium.jpg")
+      center / cover no-repeat;
+  }
+
+  .am2-hero__video {
+    position: absolute;
+    inset: 0;
+    width: 100vw !important;
+    height: 100% !important;
+    min-width: 100vw !important;
+    min-height: 100% !important;
+    object-fit: cover;
+    opacity: .9;
+    filter: none;
+    transform: scale(calc(1.08 - (var(--am2-progress) * .06)));
+    transform-origin: center;
+    transition: opacity .25s ease;
+    z-index: 1;
+  }
+
+  .am2-hero.is-video-failed .am2-hero__video {
+    opacity: 0;
+  }
+
+  .am2-hero__texture {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    opacity: .34;
+    background-image:
+      linear-gradient(rgba(224,224,219,.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(224,224,219,.035) 1px, transparent 1px),
+      radial-gradient(circle at 18% 32%, rgba(224,224,219,.28) 0 1px, transparent 1.5px),
+      radial-gradient(circle at 76% 66%, rgba(224,224,219,.2) 0 1px, transparent 1.5px);
+    background-size: 86px 86px, 86px 86px, 160px 160px, 220px 220px;
+    mix-blend-mode: screen;
+    animation: am2HeroTexture 18s linear infinite alternate;
+  }
+
+  .am2-hero__shade {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 50% 46%, rgba(0,0,0,.05), rgba(0,0,0,.46) 54%, rgba(0,0,0,.84) 100%),
+      linear-gradient(180deg, rgba(0,0,0,.38) 0%, rgba(0,0,0,.08) 46%, rgba(0,0,0,.74) 100%),
+      linear-gradient(105deg, rgba(224,224,219,0) 0%, rgba(224,224,219,.12) 46%, rgba(126,155,199,.16) 52%, rgba(224,224,219,0) 62%);
+    background-size: 100% 100%, 100% 100%, 220% 100%;
+    animation: am2HeroLightSweep 6.5s ease-in-out infinite;
+  }
+
+  .am2-hero__copy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+    width: 100vw;
+    max-width: 100vw;
+    text-align: center;
+    color: var(--am2-cream);
+    padding: 0 clamp(16px, 4vw, 64px);
+    transform:
+      translate3d(-50%, calc(-50% + (var(--am2-progress) * -92px)), 0)
+      scale(calc(.78 + (var(--am2-progress) * .34)));
+    opacity: calc(1 - (var(--am2-progress) * 1.18));
+    filter: blur(calc(var(--am2-progress) * 2px));
+    will-change: transform, opacity, filter;
+    perspective: 1200px;
+  }
+
+  .am2-hero__kicker {
+    margin: 0 0 14px;
+    font-size: clamp(.72rem, 1.1vw, .92rem);
+    font-weight: 300;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: rgba(224,224,219,.72);
+    transform: translateY(calc(var(--am2-progress) * -16px));
+    animation: am2KickerIn 1.2s cubic-bezier(.16,.84,.24,1) both;
+  }
+
+  .am2-hero__title {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(2.1rem, 6.35vw, 7.25rem);
+    font-weight: 360;
+    line-height: .94;
+    letter-spacing: calc(.001em + (var(--am2-progress) * .048em));
+    white-space: nowrap;
+    color: transparent;
+    background:
+      linear-gradient(90deg, rgba(224,224,219,.68), #fff, rgba(126,155,199,.92), #fff, rgba(224,224,219,.78));
+    background-size: 240% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow:
+      0 18px 42px rgba(0,0,0,.82),
+      0 0 calc(24px + (var(--am2-progress) * 44px)) rgba(224,224,219,.24),
+      0 0 calc(54px + (var(--am2-progress) * 62px)) rgba(126,155,199,.18);
+    transform:
+      rotateX(calc(var(--am2-progress) * 12deg))
+      translateZ(calc(var(--am2-progress) * 72px));
+    animation:
+      am2TitleReveal 1.45s cubic-bezier(.16,.84,.24,1) .08s both,
+      am2TitlePulse 4.4s ease-in-out 1.45s infinite,
+      am2TitleGradient 5.2s ease-in-out 1.2s infinite;
+    will-change: transform, letter-spacing, text-shadow, background-position;
+  }
+
+  .am2-hero__title::before {
+    content: attr(data-title);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(224,224,219,.18);
+    transform: translate3d(0, calc(var(--am2-progress) * 14px), 0) scale(1.012);
+    filter: blur(calc(1px + (var(--am2-progress) * 2px)));
+    opacity: .72;
+  }
+
+  .am2-hero__title::after {
+    content: "";
+    display: block;
+    width: min(680px, 76vw);
+    height: 1px;
+    margin: 18px auto 0;
+    background: linear-gradient(90deg, rgba(224,224,219,0), rgba(224,224,219,.95), rgba(126,155,199,.9), rgba(224,224,219,0));
+    transform: scaleX(calc(.4 + (var(--am2-progress) * .6)));
+    transform-origin: center;
+    filter: drop-shadow(0 0 16px rgba(126,155,199,.48));
+    animation: am2TitleLine 2.2s ease-in-out infinite;
+  }
+
+  .am2-hero__byline {
+    max-width: 760px;
+    margin: 18px auto 0;
+    font-size: clamp(.9rem, 1.35vw, 1.12rem);
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(224,224,219,.78);
+    letter-spacing: .04em;
+    animation: am2BylineIn 1.25s cubic-bezier(.16,.84,.24,1) .25s both;
+  }
+
+  .am2-hero__sound-controls {
+    position: absolute;
+    top: max(18px, env(safe-area-inset-top));
+    right: max(18px, env(safe-area-inset-right));
+    z-index: 8;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    border: 1px solid rgba(224,224,219,.22);
+    border-radius: 999px;
+    background: rgba(0,0,0,.40);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 0 0 1px rgba(126,155,199,.12), 0 0 22px rgba(126,155,199,.16);
+  }
+
+  .am2-hero__sound,
+  .am2-hero__volume-btn {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(224,224,219,.32);
+    border-radius: 999px;
+    background: rgba(0,0,0,.5);
+    color: var(--am2-cream);
+    display: grid;
+    place-items: center;
+    padding: 0;
+    cursor: pointer;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 0 1px rgba(126,155,199,.16), 0 0 24px rgba(126,155,199,.18);
+    animation: am2SoundInvite 1.9s ease-in-out infinite;
+    transition: transform .2s ease, background .2s ease, border-color .2s ease;
+  }
+
+  .am2-hero__sound:hover,
+  .am2-hero__volume-btn:hover {
+    transform: scale(1.06);
+    background: rgba(0,0,0,.72);
+    border-color: rgba(224,224,219,.62);
+    animation-duration: 1.05s;
+  }
+
+  .am2-hero__sound::before,
+  .am2-hero__sound::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    border: 1px solid rgba(126,155,199,.52);
+    opacity: 0;
+    pointer-events: none;
+    animation: am2SoundRing 2.1s ease-out infinite;
+  }
+
+  .am2-hero__sound::after {
+    animation-delay: .7s;
+  }
+
+  .am2-hero__sound.is-unmuted {
+    animation: am2SoundLive 1.7s ease-in-out infinite;
+    border-color: rgba(224,224,219,.62);
+  }
+
+  .am2-hero__sound-controls.is-volume-open .am2-hero__volume-btn {
+    border-color: rgba(158,183,255,.72);
+    background: rgba(158,183,255,.20);
+    box-shadow: 0 0 18px rgba(158,183,255,.34);
+  }
+
+  .am2-hero__sound svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .am2-hero__volume-bars {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2px;
+    width: 20px;
+    height: 18px;
+  }
+
+  .am2-hero__volume-bars i {
+    display: block;
+    width: 2px;
+    border-radius: 999px;
+    background: currentColor;
+    box-shadow: 0 0 8px rgba(224,224,219,.22);
+  }
+
+  .am2-hero__volume-bars i:nth-child(1) { height: 6px; }
+  .am2-hero__volume-bars i:nth-child(2) { height: 9px; }
+  .am2-hero__volume-bars i:nth-child(3) { height: 12px; }
+  .am2-hero__volume-bars i:nth-child(4) { height: 15px; }
+  .am2-hero__volume-bars i:nth-child(5) { height: 18px; }
+
+  .am2-hero__sound-on {
+    display: none !important;
+  }
+
+  .am2-hero__sound.is-unmuted .am2-hero__sound-off {
+    display: none !important;
+  }
+
+  .am2-hero__sound.is-unmuted .am2-hero__sound-on {
+    display: block !important;
+  }
+
+  .am2-hero__volume {
+    display: inline-flex;
+    align-items: center;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: width .24s ease, opacity .18s ease;
+  }
+
+  .am2-hero__sound-controls.is-volume-open .am2-hero__volume {
+    width: 94px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .am2-hero__volume input {
+    width: 88px;
+    min-width: 88px;
+    accent-color: var(--am2-cream);
+    cursor: pointer;
+  }
+
+  .am2-hero__ignite {
+    position: absolute;
+    left: 50%;
+    bottom: max(28px, env(safe-area-inset-bottom));
+    z-index: 7;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 12px;
+    color: var(--am2-cream);
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-size: .76rem;
+    font-weight: 500;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    opacity: calc(.98 - (var(--am2-progress) * 1.2));
+    filter: drop-shadow(0 0 18px rgba(126,155,199,.44));
+  }
+
+  .am2-hero__ignite-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(224,224,219,.48);
+    border-radius: 999px;
+    background: rgba(0,0,0,.5);
+    backdrop-filter: blur(12px);
+    box-shadow:
+      0 0 0 1px rgba(126,155,199,.28),
+      0 0 24px rgba(126,155,199,.34),
+      inset 0 0 18px rgba(224,224,219,.08);
+    animation: am2IgniteCore 1.55s ease-in-out infinite;
+  }
+
+  .am2-hero__ignite-ring {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    border: 1px solid rgba(126,155,199,.5);
+    animation: am2IgniteRing 1.55s ease-out infinite;
+  }
+
+  .am2-hero__ignite svg {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: am2IgniteArrow 1.05s cubic-bezier(.2,.8,.2,1) infinite;
+  }
+
+  .am2-hero__ignite-text {
+    white-space: nowrap;
+    text-shadow: 0 0 14px rgba(126,155,199,.55);
+  }
+
+  @keyframes am2HeroTexture {
+    from { background-position: 0 0, 0 0, 0 0, 0 0; }
+    to { background-position: 28px 18px, -18px 28px, 24px -30px, -22px 20px; }
+  }
+
+  @keyframes am2HeroLightSweep {
+    0%, 42%, 100% { background-position: 0 0, 0 0, -120% 0; }
+    62% { background-position: 0 0, 0 0, 120% 0; }
+  }
+
+  @keyframes am2KickerIn {
+    from { opacity: 0; transform: translateY(14px); filter: blur(8px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+
+  @keyframes am2TitleReveal {
+    from {
+      opacity: 0;
+      transform: translateY(34px) scale(.92) rotateX(18deg);
+      filter: blur(12px);
+      letter-spacing: .11em;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1) rotateX(0deg);
+      filter: blur(0);
+      letter-spacing: .002em;
+    }
+  }
+
+  @keyframes am2TitlePulse {
+    0%, 100% { text-shadow: 0 18px 42px rgba(0,0,0,.82), 0 0 24px rgba(224,224,219,.2), 0 0 58px rgba(126,155,199,.15); }
+    50% { text-shadow: 0 20px 48px rgba(0,0,0,.86), 0 0 38px rgba(224,224,219,.32), 0 0 86px rgba(126,155,199,.28); }
+  }
+
+  @keyframes am2TitleGradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  @keyframes am2TitleLine {
+    0%, 100% { opacity: .55; filter: drop-shadow(0 0 10px rgba(126,155,199,.28)); }
+    50% { opacity: 1; filter: drop-shadow(0 0 22px rgba(126,155,199,.65)); }
+  }
+
+  @keyframes am2BylineIn {
+    from { opacity: 0; transform: translateY(18px); filter: blur(8px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+
+  @keyframes am2IgniteCore {
+    0%, 100% { transform: translateY(0) scale(1); box-shadow: 0 0 0 1px rgba(126,155,199,.22), 0 0 20px rgba(126,155,199,.25); }
+    50% { transform: translateY(-3px) scale(1.04); box-shadow: 0 0 0 1px rgba(224,224,219,.54), 0 0 38px rgba(126,155,199,.62); }
+  }
+
+  @keyframes am2IgniteRing {
+    0% { opacity: .72; transform: scale(.92); }
+    100% { opacity: 0; transform: scale(1.78); }
+  }
+
+  @keyframes am2IgniteArrow {
+    0%, 100% { transform: translateY(-1px); }
+    50% { transform: translateY(5px); }
+  }
+
+  @keyframes am2SoundInvite {
+    0%, 100% {
+      box-shadow: 0 0 0 1px rgba(126,155,199,.2), 0 0 18px rgba(126,155,199,.2);
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 0 0 1px rgba(224,224,219,.42), 0 0 34px rgba(126,155,199,.58);
+      transform: scale(1.045);
+    }
+  }
+
+  @keyframes am2SoundLive {
+    0%, 100% {
+      box-shadow: 0 0 0 1px rgba(224,224,219,.34), 0 0 22px rgba(126,155,199,.38);
+    }
+    50% {
+      box-shadow: 0 0 0 1px rgba(224,224,219,.58), 0 0 42px rgba(126,155,199,.72);
+    }
+  }
+
+  @keyframes am2SoundRing {
+    0% { opacity: .65; transform: scale(.9); }
+    100% { opacity: 0; transform: scale(1.9); }
+  }
+
+  @media (max-width: 760px) {
+    .am2-hero {
+      min-height: 138vh;
+    }
+
+    .am2-hero__sticky {
+      min-height: 100svh;
+    }
+
+    .am2-hero__title {
+      font-size: clamp(2rem, 8.4vw, 3.1rem);
+      letter-spacing: calc(.001em + (var(--am2-progress) * .018em));
+      white-space: normal;
+    }
+
+    .am2-hero__byline {
+      max-width: 28rem;
+      font-size: .88rem;
+      line-height: 1.5;
+    }
+
+    .am2-hero__kicker {
+      font-size: .66rem;
+      letter-spacing: .17em;
+    }
+
+    .am2-hero__ignite {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 8px;
+      font-size: .64rem;
+      letter-spacing: .16em;
+    }
+
+    .am2-hero__ignite-ring,
+    .am2-hero__ignite-icon {
+      width: 44px;
+      height: 44px;
+    }
+
+    .am2-hero__sound,
+    .am2-hero__volume-btn {
+      width: 44px;
+      height: 44px;
+    }
+
+    .am2-hero__sound-controls {
+      top: max(12px, env(safe-area-inset-top));
+      right: max(12px, env(safe-area-inset-right));
+      gap: 6px;
+      padding: 5px;
+    }
+
+    .am2-hero__sound-controls.is-volume-open .am2-hero__volume {
+      width: 72px;
+    }
+
+    .am2-hero__volume input {
+      width: 68px;
+      min-width: 68px;
+    }
+
+    .am2-hero__texture,
+    .am2-hero__shade {
+      animation: none;
+    }
+
+    .am2-hero__texture {
+      opacity: .22;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .am2-hero,
+    .am2-hero__video,
+    .am2-hero__copy,
+    .am2-hero__ignite,
+    .am2-hero__texture {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  /* Final Squarespace full-bleed guard for this module only. */
+  body .am2-hero {
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  body .am2-hero__sticky,
+  body .am2-hero__video {
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+
+  body .am2-hero__sticky {
+    min-height: 100svh !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  body .am2-hero__video {
+    height: 100svh !important;
+    max-width: none !important;
+  }
+
+  body .am2-hero__copy {
+    left: 50% !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    text-align: center !important;
+  }
+
+  body .am2-hero__title {
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+</style>
+
+<script>
+(() => {
+  const hero = document.querySelector(".am2-hero");
+  if (!hero) return;
+
+  const video = hero.querySelector("#am2HeroVideo");
+  const audio = hero.querySelector("#am2HeroAudio");
+  const soundControls = hero.querySelector(".am2-hero__sound-controls");
+  const soundButton = hero.querySelector("#am2HeroSound");
+  const volumeButton = hero.querySelector("#am2HeroVolume");
+  const volumeRange = hero.querySelector("#am2HeroVolumeRange");
+  let ticking = false;
+  let startTimeApplied = false;
+  const heroStartTime = 10;
+  let layoutTicking = false;
+  let audioPrimed = false;
+  let audioSyncTimer = null;
+
+  const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+
+  if (video) {
+    video.muted = true;
+    video.defaultMuted = true;
+    video.setAttribute("muted", "");
+    video.setAttribute("playsinline", "");
+    video.setAttribute("webkit-playsinline", "");
+  }
+
+  const updateHeroProgress = () => {
+    ticking = false;
+    const rect = hero.getBoundingClientRect();
+    const travel = Math.max(1, rect.height - window.innerHeight);
+    const progress = clamp((rect.top * -1) / travel, 0, 1);
+    hero.style.setProperty("--am2-progress", progress.toFixed(4));
+  };
+
+  const requestHeroUpdate = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(updateHeroProgress);
+  };
+
+  const forceFullBleed = () => {
+    layoutTicking = false;
+
+    let parent = hero.parentElement;
+    while (parent && parent !== document.body && parent !== document.documentElement) {
+      parent.style.overflow = "visible";
+      parent.style.overflowX = "visible";
+      parent.style.maxWidth = "none";
+      parent.style.marginTop = "0";
+      parent.style.paddingTop = "0";
+      parent = parent.parentElement;
+    }
+
+    const viewportWidth = window.visualViewport?.width || window.innerWidth;
+    const viewportHeight = window.visualViewport?.height || window.innerHeight;
+
+    hero.style.width = `${viewportWidth}px`;
+    hero.style.maxWidth = `${viewportWidth}px`;
+    hero.style.marginTop = "0px";
+    hero.style.paddingTop = "0px";
+    hero.style.marginLeft = "0px";
+    hero.style.marginRight = "0px";
+    hero.style.transform = "none";
+
+    const left = hero.getBoundingClientRect().left;
+    hero.style.marginLeft = `${-left}px`;
+
+    const sticky = hero.querySelector(".am2-hero__sticky");
+    const copy = hero.querySelector(".am2-hero__copy");
+    const videoEl = hero.querySelector(".am2-hero__video");
+    [sticky, copy, videoEl].forEach((el) => {
+      if (!el) return;
+      el.style.width = `${viewportWidth}px`;
+      el.style.maxWidth = `${viewportWidth}px`;
+    });
+    if (sticky) {
+      sticky.style.marginTop = "0px";
+      sticky.style.paddingTop = "0px";
+    }
+    if (videoEl) {
+      videoEl.style.height = `${viewportHeight}px`;
+      videoEl.style.minWidth = `${viewportWidth}px`;
+      videoEl.style.minHeight = `${viewportHeight}px`;
+      videoEl.style.objectFit = "cover";
+    }
+  };
+
+  const requestFullBleed = () => {
+    if (layoutTicking) return;
+    layoutTicking = true;
+    requestAnimationFrame(forceFullBleed);
+  };
+
+  const tryPlay = () => {
+    if (!video) return;
+    applyStartTime();
+    const promise = video.play();
+    if (promise && typeof promise.catch === "function") promise.catch(() => {});
+  };
+
+  const primeHeroAudio = () => {
+    if (!audio || audioPrimed) return;
+    const src = audio.dataset.src;
+    if (src) audio.src = src;
+    audio.preload = "auto";
+    audio.load();
+    audioPrimed = true;
+  };
+
+  const startAudioSync = () => {
+    if (audioSyncTimer) return;
+    audioSyncTimer = window.setInterval(() => {
+      if (!audio || audio.paused || audio.muted) return;
+      syncHeroAudio();
+    }, 1500);
+  };
+
+  const stopAudioSync = () => {
+    if (!audioSyncTimer) return;
+    window.clearInterval(audioSyncTimer);
+    audioSyncTimer = null;
+  };
+
+  const setHeroSoundState = (isUnmuted) => {
+    soundButton?.classList.toggle("is-unmuted", isUnmuted);
+    soundButton?.setAttribute("aria-label", isUnmuted ? "Mute hero video" : "Unmute hero video");
+  };
+
+  const getHeroVolume = () => Math.max(0, Math.min(1, Number(volumeRange?.value || 0)));
+
+  const setHeroVolume = (value, shouldPlay = false) => {
+    const nextVolume = Math.max(0, Math.min(1, Number(value || 0)));
+    if (volumeRange) volumeRange.value = String(nextVolume);
+    if (video) video.volume = nextVolume;
+    if (audio) audio.volume = nextVolume;
+
+    if (nextVolume === 0) {
+      if (video) {
+        video.setAttribute("muted", "");
+        video.muted = true;
+        video.defaultMuted = true;
+      }
+      if (audio) audio.muted = true;
+      pauseHeroAudio();
+      setHeroSoundState(false);
+      return;
+    }
+
+    if (shouldPlay) {
+      if (video) {
+        video.removeAttribute("muted");
+        video.muted = false;
+        video.defaultMuted = false;
+      }
+      if (audio) audio.muted = false;
+      tryPlay();
+      playHeroAudio();
+      setHeroSoundState(true);
+    }
+  };
+
+  const playHeroAudio = () => {
+    if (!audio || !video) return;
+    primeHeroAudio();
+    audio.muted = false;
+    const desiredVolume = Math.max(.05, getHeroVolume() || .65);
+    if (volumeRange) volumeRange.value = String(desiredVolume);
+    audio.volume = desiredVolume;
+    video.volume = desiredVolume;
+    syncHeroAudio();
+    const promise = audio.play();
+    if (promise && typeof promise.catch === "function") promise.catch(() => {});
+    startAudioSync();
+    if (audio.readyState < 1) {
+      audio.addEventListener("loadedmetadata", syncHeroAudio, { once: true });
+    }
+  };
+
+  const syncHeroAudio = () => {
+    if (!audio || !video || !audio.duration) return;
+    try {
+      const offsetFromStart = Math.max(0, video.currentTime - heroStartTime);
+      const target = offsetFromStart % Math.max(1, audio.duration);
+      if (Number.isFinite(target) && Math.abs(audio.currentTime - target) > .35) {
+        audio.currentTime = target;
+      }
+    } catch (_) {}
+  };
+
+  const pauseHeroAudio = () => {
+    if (!audio) return;
+    audio.pause();
+    stopAudioSync();
+  };
+
+  const applyStartTime = () => {
+    if (!video || startTimeApplied) return;
+    if (video.readyState < 1) return;
+    try {
+      video.currentTime = heroStartTime;
+      startTimeApplied = true;
+    } catch (_) {}
+  };
+
+  video?.addEventListener("loadedmetadata", applyStartTime, { once: true });
+  video?.addEventListener("canplay", () => {
+    applyStartTime();
+    tryPlay();
+  }, { once: true });
+  video?.addEventListener("error", () => {
+    hero.classList.add("is-video-failed");
+  });
+
+  soundButton?.addEventListener("click", () => {
+    if (!video) return;
+    const shouldUnmute = video.muted;
+    video.muted = !shouldUnmute;
+    video.defaultMuted = !shouldUnmute;
+    if (shouldUnmute) {
+      if (volumeRange && Number(volumeRange.value) === 0) {
+        volumeRange.value = ".65";
+      }
+      video.removeAttribute("muted");
+      video.volume = Math.max(.05, getHeroVolume() || .65);
+      applyStartTime();
+      video.muted = false;
+      video.defaultMuted = false;
+      tryPlay();
+      playHeroAudio();
+    } else {
+      video.setAttribute("muted", "");
+      video.muted = true;
+      video.defaultMuted = true;
+      pauseHeroAudio();
+    }
+    setHeroSoundState(shouldUnmute);
+  });
+
+  volumeButton?.addEventListener("click", () => {
+    soundControls?.classList.toggle("is-volume-open");
+    volumeButton.setAttribute("aria-label", soundControls?.classList.contains("is-volume-open") ? "Close hero video volume control" : "Open hero video volume control");
+    if (volumeRange && soundControls?.classList.contains("is-volume-open")) volumeRange.focus();
+  });
+
+  volumeRange?.addEventListener("input", () => {
+    setHeroVolume(volumeRange.value, Number(volumeRange.value) > 0);
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!video) return;
+      if (entry.isIntersecting) tryPlay();
+      else {
+        video.pause();
+        pauseHeroAudio();
+      }
+    });
+  }, { threshold: [0, .18, .5, .82, 1] });
+
+  observer.observe(hero);
+  forceFullBleed();
+  window.addEventListener("scroll", requestHeroUpdate, { passive: true });
+  window.addEventListener("resize", () => {
+    requestHeroUpdate();
+    requestFullBleed();
+  });
+  window.addEventListener("orientationchange", requestFullBleed);
+  window.addEventListener("touchstart", tryPlay, { passive: true, once: true });
+  window.addEventListener("click", tryPlay, { passive: true, once: true });
+
+  updateHeroProgress();
+  tryPlay();
+})();
+</script>
+
+  
+  
+
+
+

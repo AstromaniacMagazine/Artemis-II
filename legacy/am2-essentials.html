@@ -1,0 +1,638 @@
+
+  
+    <!-- Artemis II Mission Report: The Essentials Section Module for Squarespace -->
+<section class="am2-essentials" id="am2-essentials" aria-labelledby="am2EssentialsTitle">
+  <div class="am2-essentials__media" aria-hidden="true">
+    <video class="am2-essentials__video" id="am2EssentialsVideo" muted loop playsinline webkit-playsinline="" preload="none" poster="https://images-assets.nasa.gov/image/art002e009288/art002e009288~medium.jpg">
+      <source media="(max-width: 760px)" data-src="https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~mobile.mp4" type="video/mp4">
+      <source data-src="https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~medium.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="am2-essentials__veil" aria-hidden="true"></div>
+  <div class="am2-essentials__grain" aria-hidden="true"></div>
+
+  <div class="am2-essentials__inner">
+    <div class="am2-essentials__story">
+      <p class="am2-essentials__eyebrow">The Essentials</p>
+      <h2 class="am2-essentials__title" id="am2EssentialsTitle">A crewed lunar flyby that turned decades of planning into flight.</h2>
+      <p class="am2-essentials__intro">Artemis II launched on April 1, 2026 and splashed down on April 10, 2026, completing a nine-day mission and returning humans beyond low Earth orbit for the first time since Apollo.</p>
+
+      <div class="am2-essentials__audio" data-audio-card="">
+        <button class="am2-essentials__audio-btn" type="button" aria-label="Play mission audio">
+          <svg class="am2-essentials__play" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+          <svg class="am2-essentials__pause" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 5v14" />
+            <path d="M16 5v14" />
+          </svg>
+        </button>
+        <button class="am2-essentials__audio-btn" type="button" data-am2-essentials-audio-mute="" aria-label="Mute mission audio">
+          <svg class="am2-essentials__sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6l-5 4H4z" /><path d="M16 9.5c.95 1.28.95 3.72 0 5" /><path d="M18.7 7c2.05 2.72 2.05 7.28 0 10" /></svg>
+          <svg class="am2-essentials__muted" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6l-5 4H4z" /><path d="M18 10l-4 4" /><path d="M14 10l4 4" /></svg>
+        </button>
+        <button class="am2-essentials__audio-btn" type="button" data-am2-essentials-audio-volume="" aria-label="Open mission audio volume control">
+          <span class="am2-essentials__audio-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        </button>
+        <label class="am2-essentials__volume" aria-label="Mission audio volume">
+          <input type="range" min="0" max="1" step="0.05" value="1" data-am2-essentials-audio-range="">
+        </label>
+        <span>Humanity Has Shown What We Are Capable Of</span>
+        <audio preload="none" src="https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-humanity-has-shown-what-we-are-capable-of.mp3"></audio>
+      </div>
+    </div>
+
+    <div class="am2-essentials__stats" id="am2EssentialsStats" aria-label="Artemis II key mission statistics">
+      <article class="am2-essentials__stat">
+        <span>Duration</span>
+        <strong data-value="9" data-final="9d 1h 32m">0d</strong>
+        <p>Official mission length from launch to splashdown.</p>
+      </article>
+      <article class="am2-essentials__stat">
+        <span>Total Distance</span>
+        <strong data-value="694481" data-suffix=" mi">0 mi</strong>
+        <p>A complete Earth-Moon-Earth deep-space loop.</p>
+      </article>
+      <article class="am2-essentials__stat">
+        <span>Farthest Point</span>
+        <strong data-value="252756" data-suffix=" mi">0 mi</strong>
+        <p>A new human-spaceflight distance record.</p>
+      </article>
+      <article class="am2-essentials__stat">
+        <span>Closest Flyby</span>
+        <strong data-value="4067" data-suffix=" mi">0 mi</strong>
+        <p>Closest approach distance from the lunar surface.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+
+  .am2-essentials,
+  .am2-essentials * {
+    box-sizing: border-box;
+  }
+
+  .am2-essentials {
+    --am2e-cream: #E0E0DB;
+    --am2e-navy: #253551;
+    --am2e-dark: #2A2829;
+    position: relative;
+    width: 100%;
+    min-height: min(760px, 92svh);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    isolation: isolate;
+    color: var(--am2e-cream);
+    background:
+      linear-gradient(180deg, rgba(0,0,0,.96), rgba(8,10,14,.9)),
+      #000;
+    font-family: "Manrope", sans-serif;
+  }
+
+  .am2-essentials__media,
+  .am2-essentials__video,
+  .am2-essentials__veil,
+  .am2-essentials__grain {
+    position: absolute;
+    inset: 0;
+  }
+
+  .am2-essentials__media {
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .am2-essentials__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .52;
+    filter: saturate(1.04) contrast(1.08) brightness(.76);
+    transform: scale(1.04);
+  }
+
+  .am2-essentials__veil {
+    z-index: 2;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 18% 18%, rgba(224,224,219,.15), transparent 30%),
+      radial-gradient(circle at 78% 72%, rgba(37,53,81,.55), transparent 34%),
+      linear-gradient(90deg, rgba(0,0,0,.9), rgba(0,0,0,.34) 52%, rgba(0,0,0,.82));
+  }
+
+  .am2-essentials__grain {
+    z-index: 3;
+    pointer-events: none;
+    opacity: .38;
+    background-image:
+      linear-gradient(rgba(224,224,219,.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(224,224,219,.025) 1px, transparent 1px),
+      repeating-linear-gradient(135deg, rgba(224,224,219,.018) 0 2px, transparent 2px 12px);
+    background-size: 72px 72px, 72px 72px, 220px 220px;
+    animation: am2EssentialsDrift 18s linear infinite alternate;
+  }
+
+  .am2-essentials__inner {
+    position: relative;
+    z-index: 4;
+    width: min(100%, 1400px);
+    margin: 0 auto;
+    padding: clamp(42px, 6vw, 78px) clamp(18px, 4vw, 52px);
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(340px, .95fr);
+    gap: clamp(26px, 5vw, 76px);
+    align-items: end;
+  }
+
+  .am2-essentials__story {
+    max-width: 780px;
+  }
+
+  .am2-essentials__eyebrow {
+    margin: 0 0 14px;
+    font-size: .78rem;
+    font-weight: 360;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: rgba(224,224,219,.72);
+  }
+
+  .am2-essentials__eyebrow::after {
+    content: "";
+    display: block;
+    width: 132px;
+    height: 1px;
+    margin-top: 9px;
+    background: linear-gradient(90deg, rgba(224,224,219,.9), rgba(126,155,199,.72), rgba(224,224,219,0));
+    filter: drop-shadow(0 0 10px rgba(126,155,199,.38));
+  }
+
+  .am2-essentials__title {
+    margin: 0;
+    max-width: 14ch;
+    font-size: clamp(2rem, 5.2vw, 4.8rem);
+    font-weight: 360;
+    line-height: .95;
+    letter-spacing: 0;
+    color: var(--am2e-cream);
+    text-wrap: balance;
+    text-shadow: 0 18px 42px rgba(0,0,0,.72);
+    opacity: 0;
+    transform: translateY(28px) scale(.97);
+    filter: blur(9px);
+  }
+
+  .am2-essentials.is-visible .am2-essentials__title {
+    animation: am2EssentialsTitleIn 1.05s cubic-bezier(.16,.84,.24,1) forwards;
+  }
+
+  .am2-essentials__intro {
+    max-width: 62ch;
+    margin: 22px 0 0;
+    color: rgba(224,224,219,.78);
+    font-size: clamp(.98rem, 1.2vw, 1.08rem);
+    line-height: 1.7;
+  }
+
+  .am2-essentials__audio {
+    width: fit-content;
+    max-width: 100%;
+    margin-top: 22px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px 8px 8px;
+    border: 1px solid rgba(224,224,219,.16);
+    border-radius: 999px;
+    background: rgba(0,0,0,.38);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 0 1px rgba(126,155,199,.26), 0 0 28px rgba(126,155,199,.28);
+    animation: am2EssentialsAudioGlow 1.9s ease-in-out infinite;
+  }
+
+  .am2-essentials__audio span {
+    color: rgba(224,224,219,.8);
+    font-size: .72rem;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+
+  .am2-essentials__audio-btn {
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgba(224,224,219,.3);
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    background: rgba(0,0,0,.58);
+    color: var(--am2e-cream);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgba(126,155,199,.3), 0 0 22px rgba(126,155,199,.34);
+    animation: am2EssentialsButtonPulse 1.5s ease-in-out infinite;
+  }
+
+  .am2-essentials__audio.is-volume-open [data-am2-essentials-audio-volume] {
+    border-color: rgba(158,183,255,.72);
+    background: rgba(158,183,255,.20);
+    box-shadow: 0 0 18px rgba(158,183,255,.34);
+  }
+
+  .am2-essentials__audio-btn svg {
+    width: 17px;
+    height: 17px;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+  }
+
+  .am2-essentials__audio-bars {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2px;
+    width: 18px;
+    height: 16px;
+  }
+
+  .am2-essentials__audio-bars i {
+    display: block;
+    width: 2px;
+    border-radius: 999px;
+    background: currentColor;
+    box-shadow: 0 0 8px rgba(224,224,219,.22);
+  }
+
+  .am2-essentials__audio-bars i:nth-child(1) { height: 5px; }
+  .am2-essentials__audio-bars i:nth-child(2) { height: 8px; }
+  .am2-essentials__audio-bars i:nth-child(3) { height: 11px; }
+  .am2-essentials__audio-bars i:nth-child(4) { height: 14px; }
+  .am2-essentials__audio-bars i:nth-child(5) { height: 16px; }
+
+  .am2-essentials__pause,
+  .am2-essentials__muted,
+  .am2-essentials__audio.is-muted .am2-essentials__sound {
+    display: none;
+  }
+
+  .am2-essentials__audio.is-playing .am2-essentials__play {
+    display: none;
+  }
+
+  .am2-essentials__audio.is-playing .am2-essentials__pause {
+    display: block;
+  }
+
+  .am2-essentials__audio.is-muted .am2-essentials__muted {
+    display: block;
+  }
+
+  .am2-essentials__volume {
+    display: inline-flex;
+    align-items: center;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: width .24s ease, opacity .18s ease;
+  }
+
+  .am2-essentials__audio.is-volume-open .am2-essentials__volume {
+    width: 82px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .am2-essentials__volume input {
+    width: 78px;
+    min-width: 78px;
+    accent-color: var(--am2e-cream);
+    cursor: pointer;
+  }
+
+  .am2-essentials__stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .am2-essentials__stat {
+    min-height: 178px;
+    padding: 18px;
+    border: 1px solid rgba(224,224,219,.14);
+    background: linear-gradient(145deg, rgba(37,53,81,.34), rgba(0,0,0,.52));
+    backdrop-filter: blur(10px);
+    display: grid;
+    align-content: space-between;
+    transform: translateY(18px);
+    opacity: 0;
+    transition: transform .6s cubic-bezier(.18,.82,.24,1), opacity .6s ease;
+  }
+
+  .am2-essentials__stat.is-visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .am2-essentials__stat span {
+    display: block;
+    margin: 0 0 12px;
+    font-size: .72rem;
+    font-weight: 360;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: rgba(224,224,219,.58);
+  }
+
+  .am2-essentials__stat strong {
+    display: block;
+    font-size: clamp(1.55rem, 3.2vw, 2.65rem);
+    font-weight: 400;
+    line-height: 1;
+    color: var(--am2e-cream);
+  }
+
+  .am2-essentials__stat p {
+    margin: 16px 0 0;
+    color: rgba(224,224,219,.64);
+    font-size: .86rem;
+    line-height: 1.5;
+  }
+
+  @keyframes am2EssentialsDrift {
+    from { background-position: 0 0, 0 0, 0 0; }
+    to { background-position: 22px 18px, -18px 22px, 36px -24px; }
+  }
+
+  @keyframes am2EssentialsTitleIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(.96);
+      filter: blur(10px);
+    }
+    64% {
+      opacity: 1;
+      transform: translateY(-4px) scale(1.01);
+      filter: blur(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      filter: blur(0);
+    }
+  }
+
+  @keyframes am2EssentialsAudioGlow {
+    0%, 100% {
+      box-shadow: 0 0 0 1px rgba(126,155,199,.22), 0 0 22px rgba(126,155,199,.22);
+      border-color: rgba(224,224,219,.16);
+    }
+    50% {
+      box-shadow: 0 0 0 1px rgba(224,224,219,.36), 0 0 42px rgba(126,155,199,.54), 0 0 70px rgba(126,155,199,.22);
+      border-color: rgba(224,224,219,.34);
+    }
+  }
+
+  @keyframes am2EssentialsButtonPulse {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 1px rgba(126,155,199,.28), 0 0 18px rgba(126,155,199,.3);
+    }
+    50% {
+      transform: scale(1.06);
+      box-shadow: 0 0 0 1px rgba(224,224,219,.48), 0 0 34px rgba(126,155,199,.58);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .am2-essentials {
+      min-height: auto;
+      padding: 0;
+    }
+
+    .am2-essentials__video {
+      opacity: .38;
+    }
+
+    .am2-essentials__inner {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding: 34px 14px;
+      align-items: start;
+    }
+
+    .am2-essentials__title {
+      max-width: 13ch;
+      font-size: clamp(2.05rem, 10vw, 3.5rem);
+    }
+
+    .am2-essentials__intro {
+      font-size: .94rem;
+      line-height: 1.62;
+    }
+
+    .am2-essentials__audio {
+      width: 100%;
+      border-radius: 16px;
+      align-items: center;
+    }
+
+    .am2-essentials__audio span {
+      font-size: .68rem;
+    }
+
+    .am2-essentials__audio.is-volume-open .am2-essentials__volume {
+      width: 70px;
+    }
+
+    .am2-essentials__volume input {
+      width: 66px;
+      min-width: 66px;
+    }
+
+    .am2-essentials__stats {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .am2-essentials__stat {
+      min-height: 136px;
+      padding: 15px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .am2-essentials__grain {
+      animation: none;
+    }
+
+      .am2-essentials__stat {
+      transition: none;
+      transform: none;
+      opacity: 1;
+    }
+
+    .am2-essentials__title,
+    .am2-essentials.is-visible .am2-essentials__title,
+    .am2-essentials__audio,
+    .am2-essentials__audio-btn {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+(() => {
+  const section = document.querySelector(".am2-essentials");
+  if (!section) return;
+
+  const video = section.querySelector("#am2EssentialsVideo");
+  const stats = [...section.querySelectorAll(".am2-essentials__stat")];
+  const statNumbers = [...section.querySelectorAll(".am2-essentials__stat strong[data-value]")];
+  const audioCard = section.querySelector(".am2-essentials__audio");
+  const audioButton = section.querySelector(".am2-essentials__audio-btn");
+  const audioMuteButton = section.querySelector("[data-am2-essentials-audio-mute]");
+  const audioVolumeButton = section.querySelector("[data-am2-essentials-audio-volume]");
+  const audioVolumeRange = section.querySelector("[data-am2-essentials-audio-range]");
+  const audio = section.querySelector("audio");
+  let statsAnimated = false;
+
+  const loadVideo = () => {
+    if (!video || video.dataset.am2Loaded === "true") return;
+    const sources = [...video.querySelectorAll("source[data-src]")];
+    sources.forEach((source) => {
+      source.src = source.dataset.src;
+      source.removeAttribute("data-src");
+    });
+    if (sources.length) video.load();
+    video.dataset.am2Loaded = "true";
+  };
+
+  const playVideo = () => {
+    loadVideo();
+    if (!video) return;
+    const promise = video.play();
+    if (promise && typeof promise.catch === "function") promise.catch(() => {});
+  };
+
+  const pauseVideo = () => {
+    if (video) video.pause();
+  };
+
+  const animateStats = () => {
+    if (statsAnimated) return;
+    statsAnimated = true;
+
+    stats.forEach((stat, index) => {
+      window.setTimeout(() => stat.classList.add("is-visible"), index * 120);
+    });
+
+    statNumbers.forEach((node) => {
+      const value = Number(node.dataset.value || 0);
+      const suffix = node.dataset.suffix || "";
+      const final = node.dataset.final || "";
+      const start = performance.now();
+      const duration = 3200;
+
+      const tick = (now) => {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.round(value * eased);
+
+        if (final && progress >= 1) node.textContent = final;
+        else if (final) node.textContent = `${current}d`;
+        else node.textContent = `${current.toLocaleString()}${suffix}`;
+
+        if (progress < 1) requestAnimationFrame(tick);
+      };
+
+      requestAnimationFrame(tick);
+    });
+  };
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        section.classList.add("is-visible");
+        playVideo();
+        animateStats();
+      } else {
+        pauseVideo();
+      }
+    });
+  }, { rootMargin: "220px 0px", threshold: [0, .18, .45] });
+
+  sectionObserver.observe(section);
+
+  const setAudioMuted = (isMuted) => {
+    if (!audio || !audioCard) return;
+    audio.muted = isMuted;
+    audioCard.classList.toggle("is-muted", isMuted);
+    audioMuteButton?.setAttribute("aria-label", isMuted ? "Unmute mission audio" : "Mute mission audio");
+  };
+
+  const setAudioVolume = (value) => {
+    if (!audio) return;
+    const nextVolume = Math.max(0, Math.min(1, Number(value || 0)));
+    audio.volume = nextVolume;
+    if (audioVolumeRange) audioVolumeRange.value = String(nextVolume);
+    setAudioMuted(nextVolume === 0);
+  };
+
+  audioButton?.addEventListener("click", async () => {
+    if (!audio || !audioCard) return;
+    if (audio.paused) {
+      try {
+        await audio.play();
+        audioCard.classList.add("is-playing");
+        audioButton.setAttribute("aria-label", "Pause mission audio");
+      } catch (_) {}
+    } else {
+      audio.pause();
+      audioCard.classList.remove("is-playing");
+      audioButton.setAttribute("aria-label", "Play mission audio");
+    }
+  });
+
+  audioMuteButton?.addEventListener("click", () => {
+    if (!audio) return;
+    const nextMuted = !audio.muted;
+    if (!nextMuted && audioVolumeRange && Number(audioVolumeRange.value) === 0) {
+      audioVolumeRange.value = ".65";
+      audio.volume = .65;
+    }
+    setAudioMuted(nextMuted);
+  });
+
+  audioVolumeButton?.addEventListener("click", () => {
+    if (!audioCard) return;
+    audioCard.classList.toggle("is-volume-open");
+    audioVolumeButton.setAttribute("aria-label", audioCard.classList.contains("is-volume-open") ? "Close mission audio volume control" : "Open mission audio volume control");
+    if (audioVolumeRange && audioCard.classList.contains("is-volume-open")) audioVolumeRange.focus();
+  });
+
+  audioVolumeRange?.addEventListener("input", () => {
+    setAudioVolume(audioVolumeRange.value);
+  });
+
+  if (audio && audioVolumeRange) audio.volume = Number(audioVolumeRange.value || 1);
+
+  audio?.addEventListener("ended", () => {
+    audioCard?.classList.remove("is-playing");
+    audioButton?.setAttribute("aria-label", "Play mission audio");
+  });
+})();
+</script>
+
+  
+  
+
+
+
