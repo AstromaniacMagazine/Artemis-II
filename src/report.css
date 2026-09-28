@@ -52,7 +52,7 @@
 #am-artemis .am-stats>div:first-child{border-left:0;padding-left:0}
 #am-artemis .am-stats dt{font-size:.72rem;color:var(--muted)}
 #am-artemis .am-stats dd{margin:10px 0 0;font-size:clamp(1.35rem,2.6vw,2.1rem);letter-spacing:-.035em;line-height:1.2}
-#am-artemis .am-stats small{display:block;margin-top:10px;font-size:.7rem;color:var(--muted)}
+#am-artemis .am-stats .am-stat-note{display:block;margin-top:10px;font-size:.7rem;color:var(--muted)}
 #am-artemis .am-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 24px}
 #am-artemis .am-gallery>article:first-child{grid-column:1/-1}
 #am-artemis .am-gallery img{width:100%;aspect-ratio:16/10;object-fit:cover}
