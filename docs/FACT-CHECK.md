@@ -26,3 +26,13 @@ Sources are linked next to the relevant report sections and centrally in `src/si
 | Crater names | Identified as crew proposals; does not assert subsequent IAU approval. | [Return release](https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/) |
 
 Editorial style: British spelling and day–month dates; less vague spectacle language; stronger attention to photographs and lunar light in keeping with the magazine's [stated focus](https://www.astromaniacmagazine.com/about). No invented author identity, fabricated human-only creation claim or fabricated quote has been added.
+
+## Follow-up review — 2 November 2026
+
+- NASA's Accords list now records Vietnam as the 78th signatory, joining 28 October. Updated the membership count and latest-signatory text.
+- NASA's 23 October Artemis III overview now describes a planned 14-day 2027 Earth-orbit mission testing both Blue Origin and SpaceX landers. Updated the timeline and linked that overview.
+- NASA's 13 October hardware update reports completed Artemis III booster stacking and installation of all four RS-25 engines. Replaced the August status with this dated update.
+- NASA's 7 October lunar science release describes more than 800 GB, over 11,000 full-resolution images and video, 8.5 hours of audio and annotated imagery. Added this separate archive release without conflating it with the initial flyby photography count.
+- All 51 linked external resources passed a fresh check on 2 November. The checker now spaces requests and respects rate-limit retry delays to reduce false failures from NASA throttling.
+
+Current primary-source URLs are recorded in `src/site.json` and the report's sources section.

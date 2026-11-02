@@ -1,6 +1,6 @@
 {
   "summary": {
-    "checkedAt": "2026-09-27T20:24:06.939Z",
+    "checkedAt": "2026-11-02T18:36:33.780Z",
     "total": 51,
     "passed": 51,
     "failed": 0,
@@ -21,14 +21,6 @@
       "status": 206,
       "type": "video/mp4",
       "finalURL": "https://images-assets.nasa.gov/video/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)/Around%20the%20Moon%20for%20All%20Humanity%20Artemis%20II%20(Official%20Launch%20Trailer)~mobile.mp4",
-      "result": "pass"
-    },
-    {
-      "url": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
-      "kind": "page",
-      "status": 200,
-      "type": "text/html; charset=UTF-8",
-      "finalURL": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
       "result": "pass"
     },
     {
@@ -136,11 +128,19 @@
       "result": "pass"
     },
     {
-      "url": "https://www.nasa.gov/blogs/missions/2026/08/05/nasa-joins-artemis-iii-orion-modules-rocket-hardware-update/",
+      "url": "https://www.nasa.gov/blogs/missions/2026/10/07/nasa-releases-artemis-ii-lunar-science-data-images/",
       "kind": "page",
       "status": 200,
       "type": "text/html; charset=UTF-8",
-      "finalURL": "https://www.nasa.gov/blogs/missions/2026/08/05/nasa-joins-artemis-iii-orion-modules-rocket-hardware-update/",
+      "finalURL": "https://www.nasa.gov/blogs/missions/2026/10/07/nasa-releases-artemis-ii-lunar-science-data-images/",
+      "result": "pass"
+    },
+    {
+      "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/",
       "result": "pass"
     },
     {
@@ -168,19 +168,19 @@
       "result": "pass"
     },
     {
+      "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "kind": "page",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "finalURL": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "result": "pass"
+    },
+    {
       "url": "https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/",
       "kind": "page",
       "status": 200,
       "type": "text/html; charset=UTF-8",
       "finalURL": "https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/",
-      "result": "pass"
-    },
-    {
-      "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
-      "kind": "page",
-      "status": 200,
-      "type": "text/html; charset=UTF-8",
-      "finalURL": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
       "result": "pass"
     },
     {
